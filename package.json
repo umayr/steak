@@ -1,0 +1,19 @@
+{
+  "name": "steak",
+  "version": "0.0.0",
+  "description": "REST Endpoints for hungrilla database models.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungrilla/steak.git"
+  },
+  "author": "Umayr Shahid <umayrr@hotmail.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hungrilla/steak/issues"
+  },
+  "homepage": "https://github.com/hungrilla/steak#readme"
+}
