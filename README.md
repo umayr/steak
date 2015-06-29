@@ -1,6 +1,6 @@
 ![Header Image](https://raw.githubusercontent.com/hungrilla/media/master/PNGs/steak.png)
 
-REST Endpoints for Hungrilla Database.
+REST Endpoints for Hungrilla Database. ![Build Status](https://travis-ci.org/hungrilla/steak.svg?branch=develop) ![Dependencies Status](https://david-dm.org/hungrilla/steak.svg)
 
 ### Getting Started
 
