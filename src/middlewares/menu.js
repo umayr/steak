@@ -42,6 +42,12 @@ var _ = require('lodash');
 var is = require('is_js');
 
 module.exports = {
+  create: {
+    fetch: function (req, res, context) {
+      // manipulate the fetch call
+      return context.continue;
+    }
+  },
   list: {
     write: {
       before: function (req, res, context) {
@@ -50,6 +56,12 @@ module.exports = {
             item.description = (new Buffer(item.description)).toString()
           });
         }
+        return context.continue;
+      },
+      action: function (req, res, context) {
+        return context.continue;
+      },
+      after: function (req, res, context) {
         return context.continue;
       }
     }
