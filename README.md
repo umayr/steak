@@ -205,3 +205,8 @@ Alternatively, you can specify that pagination is disabled for a given resource 
     pagination: false
   });
 ```
+### Contributers:
+- Umayr Shahid <umayrr@hotmail.co.uk>
+
+### TODOs:
+- [ ] Add some TODOs.
