@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var environment = require('../lib/conf/env')[process.env['target'] || 'dev'];
+var database = require('../lib/conf/sequelize')();
+
+var log = require('../src/bootstrap/logger')();
+var server = require('../src/bootstrap/server')(log);
+var epilogue = require('../src/bootstrap/epilogue')(server, database);
+
+require('../src')(server, epilogue, database, environment);
