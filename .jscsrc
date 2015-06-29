@@ -1,5 +1,4 @@
 {
-  "disallowDanglingUnderscores": true,
   "disallowEmptyBlocks": true,
   "disallowMixedSpacesAndTabs": true,
   "disallowImplicitTypeConversion": [
@@ -8,25 +7,12 @@
     "binary",
     "string"
   ],
-  "disallowMultipleLineBreaks": true,
   "disallowMultipleLineStrings": true,
   "disallowMultipleVarDecl": true,
   "disallowNewlineBeforeBlockStatements": true,
   "disallowOperatorBeforeLineBreak": [
-    "+",
     "."
   ],
-  "disallowSpaceAfterKeywords": [
-    "if",
-    "else",
-    "for",
-    "while",
-    "do",
-    "switch",
-    "try",
-    "catch"
-  ],
-  "disallowSpaceBeforeBlockStatements": true,
   "disallowSpaceBeforePostfixUnaryOperators": [
     "++",
     "--"
@@ -35,9 +21,6 @@
   "disallowTrailingComma": true,
   "disallowTrailingWhitespace": true,
   "disallowYodaConditions": true,
-  "disallowSpacesInFunction": {
-    "beforeOpeningCurlyBrace": true
-  },
   "requireKeywordsOnNewLine": [
     "else",
     "if"
@@ -91,5 +74,5 @@
     "mark": "'",
     "escape": true
   },
-  "maximumLineLength": 100
+  "maximumLineLength": 120
 }
