@@ -53,7 +53,7 @@ module.exports = {
       before: function (req, res, context) {
         if (is.array(context.instance)) {
           _.each(context.instance, function (item) {
-            item.description = (new Buffer(item.description)).toString()
+            item.description = (new Buffer(item.description)).toString();
           });
         }
         return context.continue;
