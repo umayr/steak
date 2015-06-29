@@ -2,10 +2,10 @@
   "name": "Steak",
   "version": "0.0.1",
   "description": "REST Endpoints for hungrilla database models.",
-  "main": "src/index.js",
+  "main": "bin/www",
   "scripts": {
     "test": "./scripts/test.sh",
-    "start": "./node_modules/.bin/nodemon src/index.js"
+    "start": "./node_modules/.bin/nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,9 @@
   "dependencies": {
     "bunyan": "^1.4.0",
     "epilogue": "^0.5.1",
+    "is_js": "^0.7.4",
+    "lodash": "^3.9.3",
+    "mysql": "^2.7.0",
     "restify": "^3.0.3",
     "sequelize": "^3.3.2"
   },
