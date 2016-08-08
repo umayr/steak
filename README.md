@@ -7,8 +7,9 @@ REST Endpoints for Hungrilla Database. [![Build Status](https://travis-ci.org/hu
 ```bash
 # Clone this repository
 $ git clone https://github.com/hungrilla/steak
+$ cd steak
 # Fetch submodules
-$ git submodule foreach git pull
+$ git submodule update --init --recursive
 # Install dependencies
 $ npm install
 # Execute script
